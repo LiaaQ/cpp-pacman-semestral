@@ -1,0 +1,13 @@
+// Choose the mode. Predefined/Custom
+Mode: Custom
+
+// Choose the map. Easy/Medium/Hard/Custom
+Map: Hard
+
+CUSTOM:
+
+// Number of rounds (Format = Easy, Medium, Hard)
+Rounds: 400 300 200
+
+// Length of hunting mode in rounds.
+Hunting: 50 40 30

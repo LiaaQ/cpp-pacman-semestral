@@ -1,0 +1,8 @@
+Semestrální práce - Pacman
+
+V rámci semestrální práce vznikla hra, ve které má Pacman za úkol za co nejméně kol posbírat všechny mince na mapě, čemuž se snaží zabránit duchové. Může si přidat život, když šlápne na Fruit, nebo zabít ducha potom, co sebere Powerup. Lze se také teleportovat na druhou stranu mapy pomocí teleportů. Ve hře jsou implementovány 3 různé strategie pronásledování pro duchy a v configu si člověk bude moci sám vybrat, jaké duchy bude na mapě chtít.
+
+Na rozdíl od typické Pacman hry je tato hra tahová. Jsou zde 3 duchové - Pinky, Inky a Clyde. Pinky hráče pronásleduje, Inky odhaduje kam by Pacman mohl jít a Clyde jde na nejvzdálenější políčko.
+
+Polymorfismus je využit na reprezentaci nehybných políček mapy. Mapa je reprezentována vektorem vektorů CMapTiles.
+Polymorfismus je také využit pro reprezentaci duchů. Díky tomu lze s duchy pracovat snadno.
